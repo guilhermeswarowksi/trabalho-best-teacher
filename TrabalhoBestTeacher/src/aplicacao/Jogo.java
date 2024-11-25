@@ -17,14 +17,13 @@ public class Jogo {
     }
     public void comecar() {
         Random random = new Random();
-
-        // Decidindo quem começa o turno, acredito que por turnos seja melhor:)
-        // ? = operador Ternário, forma mais rapida de fzr if-else
-        boolean turnoAventureiro = random.nextBoolean();
-        System.out.println(turnoAventureiro ? aventureiro.getNome() + " começa atacando!" : monstro.getNome() + " começa atacando!");
-    
-    
-    
-    
+        
+        Personagem atacante;
+        Personagem defensor;
     }
+    public void escolherArmaAv() {
+    	System.out.print("Digite 1 para: ");
+    	
+    }
+    
 }
