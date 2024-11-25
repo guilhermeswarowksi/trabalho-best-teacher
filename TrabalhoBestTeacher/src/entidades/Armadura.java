@@ -16,5 +16,4 @@ public class Armadura {
     public int getPoderDefesa() {
         return poderDefesa;
     }
-    
 }
